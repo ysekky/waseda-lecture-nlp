@@ -19,8 +19,11 @@
 $ git clone git@github.com:ysekky/waseda-lecture-nlp.git
 $ cd waseda-lecture-nlp
 $ docker build -t waseda-gunosy/nlp .
-$ docker run -p 10000:8888 waseda-gunosy/nlp -v ./work:/home/jovyan/work/
+$ docker run -p 8888:8888 waseda-gunosy/nlp
 ```
+
+- `localhost:8888` でJupyter Notebookが立ち上がります
+- volumeのマウントなどは各自でやってください
 
 ## 動作確認
 
